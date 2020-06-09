@@ -1,0 +1,171 @@
+
+@media (max-width: 1200px)
+	*
+		font-size: 9.5px
+@media (max-width: 991px)
+	*
+		font-size: 7.4px
+	.cooperation
+		&__list
+			padding-left: 12rem
+		
+@media (max-width: 767px)
+	*
+		font-size: 5.4px
+	.menu
+		&__link
+			font-size: 2.2rem
+	.subheader
+		&__name
+			font-size: 2.6rem
+		&__call
+			font-size: 2.4rem
+		&__btn
+			font-size: 1.8rem
+	.promo
+		&__header
+			font-size: 4.5rem
+		&__subheader
+			font-size: 3rem
+		&__descr
+			font-size: 2.5rem
+		.button
+			font-size: 2.2rem
+	.label
+		font-size: 1.6rem
+	.title
+		font-size: 3.6rem
+	.advantages
+		&__subtitle
+			font-size: 2.2rem
+		&__text
+			font-size: 2.1rem
+	.work
+		&__link
+			font-size: 1.8rem
+			padding: 1.2rem 2.4rem
+	.choice
+		&__subtitle
+			font-size: 3.4rem
+	.cooperation
+		&__subtitle
+			font-size: 3rem
+		.button
+			font-size: 2.2rem
+	.footer
+		&__descr
+			font-size: 1.95rem
+		
+@media (max-width: 575px)
+	*
+		font-size: 5px
+	.container
+		width: 94%
+	.menu
+		position: static
+		&__nav
+			display: block
+			z-index: 1
+			position: fixed
+			display: flex
+			flex-direction: column
+			justify-content: space-around
+			align-items: center
+			top: 0
+			left: -100%
+			width: 60%
+			margin: 3vh 0
+			color: #ffffff
+			line-height: 2.6rem
+			font-weight: 700
+			text-transform: uppercase
+			padding: 20px 15px
+			background: rgba(0, 0, 0, .8)
+			border: none
+			transition: .6s all
+			height: 94vh
+			&_active
+				left: 0
+		&__item
+				width: 100%
+				margin: 0
+				padding: 2vh 0
+				border: none
+				text-align: center
+		&__link
+				display: block
+				font-size: 3rem
+				min-height: 7vh
+				padding-top: 2vh
+		.hamburger
+			position: absolute
+			top: 2rem
+			right: 2rem
+			display: block
+			width: 26px
+			margin: 0
+			height: 12px
+			span
+				display: block
+				width: 100%
+				height: 2px
+				background-color: #fff
+				margin-bottom: 2px
+				transition: .6s all
+			&_active
+				span
+					margin-bottom: -2px
+					&:nth-last-child(1)
+						transform: translateY(3px) rotate(-45deg)
+					&:nth-last-child(2)
+						display: none
+					&:nth-last-child(3)
+						transform: translateY(3px) rotate(45deg)
+	.subheader
+		&__img
+			margin-right: 1rem
+		&__name
+			font-size: 2.2rem
+			margin-right: 5rem
+		&__call
+			margin-right: 1rem
+			font-size: 2rem
+			display: none
+		&__btn
+			//display: none
+	.advantages
+		&__wrapper
+			flex-wrap: wrap
+		&__card
+			width: 50rem
+	.work
+		&__wrapper
+			flex-wrap: wrap
+			height: 140rem
+		&__card
+			width: 50rem
+		&__card:first-child
+			margin-bottom: 5rem
+	.label
+		width: 20rem
+	.cooperation
+		&__list
+			padding-left: 5rem
+		&__subtitle
+			width: 45rem
+			margin-left: 5rem
+	.modal
+		width: 50rem
+		.feed-form
+			width: 40rem
+			input, textarea
+				font-size: 2rem
+		&__close
+			font-size: 6rem
+		&__subtitle
+			font-size: 2.4rem
+		&__descr
+			font-size: 2.2rem
+		.button
+			font-size: 2.2rem
+		
